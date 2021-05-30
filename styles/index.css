@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+
+nav {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0b1e33;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00DCA8), to(#008464));
+  background: linear-gradient(#00DCA8, #008464);
+  padding: 0 20px;
+  border-bottom: 3px solid #ccc;
+}
+
+nav .logo {
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+nav .hamburger-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+nav .hamburger-menu .icon {
+  font-size: 1.5rem;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+  color: #0b1e33;
+  background-image: url("../assets/tiger.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+#hero .hero-paragraph {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  -webkit-transform: translate(-30%, -50%);
+          transform: translate(-30%, -50%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#00DCA8), to(#008464));
+  background: linear-gradient(#00DCA8, #008464);
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 3rem;
+  width: 800px;
+  z-index: 300;
+}
+
+#hero .hero-paragraph .cta-button {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background-color: #FFBA42;
+  color: white;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+#hero .hero-paragraph .cta-button:hover {
+  background-color: #ffd358;
+}
+
+#hero .row {
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+  color: #f4f4f4;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=index.css.map */
