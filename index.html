@@ -12,10 +12,16 @@
     <main>
         <nav>
             <div class="logo">Animal Spirit</div>
-            <div class="hamburger-menu">
+            <div id="hamburger-menu">
                 <div class="icon">&#9776;</div>
                 <div class="menu-text">MENU</div>
             </div>
+            <ul id="side-bar" class="hide">
+                <a href="#" id="close-btn">&times;</a>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Tickets</li></a>
+                <a href="#"><li>Contact</li></a>   
+            </ul>
         </nav>
         <section id="hero">
             <div class="hero-paragraph">
@@ -58,5 +64,7 @@
             document.write(currentDate);
         </script>
     </footer>
+
+    <script src="./menu.js"></script>
 </body>
 </html>

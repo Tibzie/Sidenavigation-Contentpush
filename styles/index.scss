@@ -25,7 +25,7 @@ nav {
         text-transform: uppercase;
         cursor: pointer;
     }
-    .hamburger-menu {
+    #hamburger-menu {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -35,6 +35,12 @@ nav {
             font-size: 1.5rem;   
         }
     }
+    .hide {
+        display: none;
+    }
+    // .hide {
+    //     display: none;
+    // }
 }
 #hero {
     height: 100vh;
